@@ -11,9 +11,12 @@
      <style>
       .banner-image {
         background-image: url("media/MTB\ 3.jpg");
-        /* background-size: ; */
       }
      </style>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+</style>
 
     <title>Home</title>
 </head>
@@ -22,27 +25,18 @@
   <div class="container text-center"><!-- Chain ring & Search box Alignment -->
     <header>
       <nav>
-        <a href="./index.html">
           <form class="d-flex" role="search">
-            <img class="gear-home" src="./media/chainring 2.png" alt="home" height="80px" width="80px"></a>
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
+            <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary" type="submit">Search</button>
           </form> 
-          <h1>Passion for Riding</h1>
+          <h1 class="banner">Passion for Riding</h1>
             </nav> 
           </div>
         </div>
-           <!-- <div>
-                <h2 class="h2gray">
-                    <a href="./bikes.html">Bikes |</a>
-                    <a href="./wheels.html">Wheels |</a>
-                    <a href="./maintenance.html">Maintenance |</a>
-                    <a href="./contact us.html">Contact Us</a>
-                </h2>
-            </div> -->
-            <div class="row col-md-12">
+
+            <div class="container col-sm-12 col-md-12 "></div> 
                     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                        <div class="container col-md-5 text-bg-primary p-3"><!-- container-fluid makes text stay on left -->              
+                        <div class="container-fluid col-md-5"><!-- container-fluid makes text stay on left, text-bg-primary p-3-->              
                           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                             <div class="navbar-nav">
                               <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
@@ -55,8 +49,10 @@
                         </div>
                       </nav>
             </header> 
-            <div class="container text-center"><h1>Featured Items</h1></div>
-             <div class="container col-md-5">
+            <section class="container my-5 text-center">
+              <div class="row">             
+              <div class="col"><h2>Featured Items</h2>                 
+             <div class="container">
               <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -77,78 +73,114 @@
                 </button>
               </div>
             </div>  
-
-            <div class="container text-center">
-            <div class="row">                    
-            <div class="news">
-                <span class="newsletter-title">News Letter</span><br>
-                <span class="newsletter-lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam excepturi illum architecto voluptates molestias labore?</span> 
-                <input class="email-bar" type="email" placeholder="Email Address">
-            </div>  
-          </div>  
-
+            </section></div> 
+            <section class="container-fluid my-5 col-md-12" style="background-color: azure">
+            <div class="row"></div> 
+              <div class="col"></div>                              
+              
+                <h3 class="newsletter-title">News Letter</h3>
+                <span class="newsletter-title">Receive the most up to date info right in your inbox about the world of cycling. Events, new merch, sales and much more.</span>
+                <div class="search-button input-group ">
+                  <input type="text" class="form-control" placeholder="Your Email Address..." aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <button class="btn btn-outline-secondary" type="button" id="button-addon2">Sign Up</button>
+                                    
+                </div>               
+               </div>  
+             </div>  
+            </div> 
+          </section>
             
-<!--<header class="blue"> 
-    <div class="container text-center">
+<div>
+  <footer class="text-center text-lg-start text-white" style="background-color: #3e4551">
+    <div class="container p-4 pb-0">
+      <section class="">
         <div class="row">
-            <div class="row">
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>                   
-                </div>
-                <div class="row">
-                    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbarcolor">
-                        <div class="container-fluid">                 
-                          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav">
-                              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                              <a class="nav-link" href="./pages/bikes.html">Bikes</a>
-                              <a class="nav-link" href="./pages/wheels.html">Wheels</a>
-                              <a class="nav-link" href="./pages/maintenance.html">Maintenance</a>
-                              <a class="nav-link" href="./pages/contact us.html">Contact Us</a>
-                            </div>
-                          </div>
-                        </div>
-                      </nav>
-                </div>
-                <div class="row">
-                    <h1>Passion for Riding</h1>
-                </div>
-            </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <img src="./media/chainring 2.png"></img>
+            <p>
+              Bike E-Shop. 
+              1717 Harrison St, San Francisco, CA 94103, USA
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Main Menu</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="./index.html" class="text-white">Home</a>
+              </li>
+              <li>
+                <a href="./pages/bikes.html" class="text-white">Bikes</a>
+              </li>
+              <li>
+                <a href="./pages/wheels.html" class="text-white">Wheels</a>
+              </li>
+              <li>
+                <a href="./pages/maintenance.html" class="text-white">Maintenance</a>
+              </li>
+              <li>
+                <a href="./pages/contact us.html" class="text-white">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Company</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">The Company</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Discover</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">The Team</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Our History</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Brand Motto</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Find Us On</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="https://www.youtube.com/channel/UCG7qumlhxxNZxmOPSZNC1bg" class="text-white">Youtube</a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/alejo.zerep/" class="text-white">Instagram</a>
+              </li>
+              <li>
+                <a href="https://twitter.com/Zerep86054110?t=28A6FlV12fQVEJHeyOw81Q&s=09" class="text-white">Twitter</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </header>
+      </section>
 
+     <hr class="mb-4" /> 
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2023 Copyright:
+      <a class="text-white" href="">@AlejoZerep</a>
+    </div>
+  </footer>
+</div>
 
-  <header class="headerblue">
-        <h1>Passion for Riding</h1>
-        <nav class="navbar" id="nav">
-            <ul>
-                <li>
-                    <a href="./index.html">
-                        <img class="gear-home" src="./media/chainring 2.png" alt="home" height="80px" width="80px"></a>
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>    
-                    </li>
-                    <div class="row">
-                        <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbarcolor">
-                            <div class="container-fluid">                 
-                              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                                <div class="navbar-nav">
-                                  <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                                  <a class="nav-link" href="./pages/bikes.html">Bikes</a>
-                                  <a class="nav-link" href="./pages/wheels.html">Wheels</a>
-                                  <a class="nav-link" href="./pages/maintenance.html">Maintenance</a>
-                                  <a class="nav-link" href="./pages/contact us.html">Contact Us</a>
-                                </div>
-                    </div>
-                    </ul>
-                </nav>
-            </header>    --> 
-
-            <script src="./js/popper.js"></script>
-            <script src="./js/bootstrap.js"></script>
+<script src="./js/popper.js"></script>
+<script src="./js/bootstrap.js"></script>
 </body>
 </html>
