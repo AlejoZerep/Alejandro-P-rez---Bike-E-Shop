@@ -23,7 +23,7 @@ header {
  h1 {
     color: blue ;
     font-size: 2em;
-    position: relative; /* left: 750px; */ top: 200px;
+    position: relative; /* left: 750px; */ top: 50px;
  }
 
  h3 {
@@ -36,6 +36,7 @@ header {
     max-width: 50%;
     
  }
+
 
 /*  h2 {
  

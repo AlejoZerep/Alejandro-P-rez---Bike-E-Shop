@@ -5,24 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- <link rel="stylesheet" href="./css/bootstrap.css" -->
-    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        .banner-image {
+          background-image: url("../media/Keno\ Derleyn.jpg");
+        }
+       </style>
+
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css"> 
 
     <title>Contact Us</title>
 </head>
-
 <body>
+  <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+  <div class="container text-center"><!-- Chain ring & Search box Alignment -->
     <header>
-        <nav>
-            <a href="../index.html">
-                <img src="../media/chainring 2.png" alt="home" height="50px" width="50px"></a>
-                <a href="./bikes.html">Bikes</a>
-                <a href="./wheels.html">Wheels</a>
-                <a href="./maintenance.html">Maintenance</a>
-                <a href="./contact us.html">Contact Us</a>
-            </nav>
-            <h1>Contact Us</h1>
-        <section>
+      <nav>
+          <form class="d-flex" role="search">
+            <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary" type="submit">Search</button>
+          </form> 
+          <h1 class="banner">Passion for Riding</h1>
+            </nav> 
+          </div>
+        </div>
+
+            <div class="container col-sm-12 col-md-12 "></div> 
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                        <div class="container-fluid col-md-5"><!-- container-fluid makes text stay on left, text-bg-primary p-3-->              
+                          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                              <a class="nav-link" href="bikes.html">Bikes</a>
+                              <a class="nav-link" href="wheels.html">Wheels</a>
+                              <a class="nav-link" href="maintenance.html">Maintenance</a>
+                              <a class="nav-link" href="contact us.html">Contact Us</a>
+                            </div>
+                          </div>
+                        </div>
+                      </nav>
+            </header> 
+
+        <section class="container text-center my-5">
             <form action="#">
                 <div>
                     <input type="text" placeholder="First name"><input type="text" placeholder="Last name">
@@ -45,7 +69,97 @@
         </section>
     </header>
 
-    <!-- <script src="./js/popper.js"></script>
-    <script src="./js/bootstrap.js"></script> -->
+    <div>
+        <footer class="text-center text-lg-start text-white" style="background-color: #3e4551">
+          <div class="container p-4 pb-0">
+            <section class="">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                  <img src="../media/chainring 2.png"></img>
+                  <p>
+                    Bike E-Shop. 
+                    1717 Harrison St, San Francisco, CA 94103, USA
+                  </p>
+                </div>
+      
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">Main Menu</h5>
+      
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="../index.html" class="text-white">Home</a>
+                    </li>
+                    <li>
+                      <a href="bikes.html" class="text-white">Bikes</a>
+                    </li>
+                    <li>
+                      <a href="wheels.html" class="text-white">Wheels</a>
+                    </li>
+                    <li>
+                      <a href="maintenance.html" class="text-white">Maintenance</a>
+                    </li>
+                    <li>
+                      <a href="contact us.html" class="text-white">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+      
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">Company</h5>
+      
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#!" class="text-white">The Company</a>
+                    </li>
+                  </ul>
+                </div>
+      
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">Discover</h5>
+      
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#!" class="text-white">The Team</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Our History</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Brand Motto</a>
+                    </li>
+                  </ul>
+                </div>
+      
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">Find Us On</h5>
+      
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="https://www.youtube.com/channel/UCG7qumlhxxNZxmOPSZNC1bg" class="text-white">Youtube</a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/alejo.zerep/" class="text-white">Instagram</a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/Zerep86054110?t=28A6FlV12fQVEJHeyOw81Q&s=09" class="text-white">Twitter</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+      
+           <hr class="mb-4" /> 
+          <div
+               class="text-center p-3"
+               style="background-color: rgba(0, 0, 0, 0.2)"
+               >
+            © 2023 Copyright:
+            <a class="text-white" href="">@AlejoZerep</a>
+          </div>
+        </footer>
+      </div>
+      
+      <script src="../js/popper.js"></script>
+      <script src="../js/bootstrap.js"></script>
 </body>
 </html>
