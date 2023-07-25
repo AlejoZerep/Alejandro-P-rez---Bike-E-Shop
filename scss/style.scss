@@ -1,2 +1,21 @@
 @import "partials/Reset";
+@import "partials/mixins";
 
+/* Logo Animation */
+
+.rotate_gear {
+    transition: transform 1s;
+  }
+  
+  .rotate_gear:hover {
+    transform: rotate(360deg);
+  }
+
+.workshop{
+    width: 100%;
+    height: 800px;
+}
+
+.maintenance {
+    @include sizes (300px, 500px);
+}
