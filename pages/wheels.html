@@ -15,21 +15,137 @@
     <!--   Linking my Own CSS Styles -->
 
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../scss/style.scss">
 
     <title>Bike E-Shop - Wheels - Competitive - Casual</title>
 </head>
 <body>
     <header>
-        <nav>
-            <a href="../index.html">
-                <img src="../media/chainring 2.png" alt="home" height="50px" width="50px"></a>
-                <a href="./bikes.html">Bikes</a>
-                <a href="./wheels.html">Wheels</a>
-                <a href="./maintenance.html">Maintenance</a>
-                <a href="./contact us.html">Contact Us</a>
-            </nav>
-            <h1>Wheels</h1>
+      <!-- Nav bar -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid"><!-- flex-row-reverse Changes Gear Position -->
+          <a class="navbar-brand" href="../index.html"><img class="rotate_gear" src="../media/chainring 2.png" alt="Bootstrap" width="45" height="45"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/bikes.html">Bikes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-primary" aria-current="page" href="../pages/wheels.html">Wheels</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/maintenance.html">Maintenance</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contact us.html">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn btn-outline-primary btn-outline-success-primary " type="submit">Your Cart</button>
+            </form>
+          </div>
+        </div>
+      </nav>
 
+            <!-- Wheels Display -->
+            <div>
+              <section class="text-center text-lg-start text-white" style="background-color: #f4f6f8">
+                <div class="p-5">
+                  <section class="">
+                    <div class="row">
+                      <div class="col-lg-5 col-md-6 mb-4 mb-md-0 text-secondary">
+
+      
+                        <!-- Maintenance Services -->
+                        <a><img class="wheels" src="../media/Shimano MT106.jpg"></img></a>
+
+
+                      </div>
+            
+            <!-- Summary Column -->
+            <div class="col-lg-5 col-md-6 mb-4 mb-md-0 text-secondary">
+            <h5 class="fs-1 text-secondary">Shimano WH-MT501 Wheels</h5><p>Reviews</p><hr>
+            <h5 class="fs-3 text-secondary">$200</h5><div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Wheel Size
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">26"</a></li>
+                <li><a class="dropdown-item" href="#">27.5"</a></li>
+                <li><a class="dropdown-item" href="#">29"</a></li>
+              </ul>
+            </div><hr>
+      
+            <ul class="list-unstyled mb-0">
+            <li>
+              <p class="text-secondary">Shimano WH-MT501 Front Wheel with 15mm thru Axle, service free sealed bearings, All Mountain - Enduro Wheels</p>
+            </li>
+            <hr> 
+              </ul>
+
+            <!-- Purchase Button -->
+            <button type="button" class="btn btn-secondary">Add to Cart</button>
+
+                </div>
+                 </div>
+                   </div>
+                    </div>
+
+            <!-- Similar Products -->
+            <section>
+              <div>
+                <h3 class="text-center p-3">Similar Products</h3>
+                    <div class="container p-4 pb-0">
+                      <section class="container">
+                        <div class="row">
+
+                      <!-- 1st Column -->
+                      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                        <img class="similar p-3 " src="../media/Neuro Disc.jpg">Neuro Disc Rear Wheel</img>
+                      </div>
+
+                      <!-- 2nd Column -->
+                      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                        <img class="similar p-3 " src="../media/Shimano Deore XT WH-M8100.jpg">Shimano Deore XT M8100</img></a>
+                      </div>
+                      
+                      <!-- 3nd Column -->
+                          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                            <img class="similar p-3 " src="../media/Shimano Wheels WH-MT600.jpg">Shimano Wheels MT600</img></a>
+                          </div>      
+                </div>               
+               </div>  
+             </div>  
+            </div> 
+          </section><hr>
+
+      <!-- Reviews -->
+      <div>
+        <section class="text-center text-lg-start text-white" style="background-color: #f4f6f8">
+          <div class="p-5">
+            <section class="">
+              <div class="row">
+                <div class="col-lg-9 col-md-6 mb-4 mb-md-0 text-secondary">
+                  <h5 class="fs-3">
+                    Reviews
+                  </h5><hr>
+
+                  <!-- Feedback -->
+                  <img class="maintenance d-flex" src="../media/photo-1590031905406.avif" alt="Feedback face 1">Overall outstanding performance. These are my first set of thru axle wheels and let me tell you I couldn't be happier. The way these wheels read the terrain, the control, the stability. Just wow! </img>
+                  <P></P>
+                  <a><img class="maintenance" src="../media/Asian Smile 810x625.jpg" alt="Feedback face 2">These wheels were on sale. So it was a no brainer for me to upgrade from my previous 2010 Neuro Disc. I love them!</img></a>
+                  <P></P>
+                </div>
+                  </div>
+                    </div>
+      
+            <!-- Footer -->
             <section>
                 <div>
                     <footer class="text-center text-lg-start text-white" style="background-color: #434446">

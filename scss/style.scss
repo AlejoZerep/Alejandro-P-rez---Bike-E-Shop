@@ -11,8 +11,8 @@
     transform: rotate(360deg);
   }
 
-/* mixin Maintenance */
-
+  /* mixin Maintenance */
+  
 .workshop{
     width: 100%;
     height: 800px;
@@ -20,4 +20,16 @@
 
 .maintenance {
     @include sizes (300px, 500px);
+}
+
+/* Wheels Decoration */
+
+.wheels {
+    width: 100%;
+    height: 700px;
+}
+
+.similar {
+    width: 200px;
+    height: 200px;
 }
