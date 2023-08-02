@@ -1,5 +1,21 @@
 @import "partials/Reset";
 @import "partials/mixins";
+@import "partials/variables";
+
+/*Button Styles*/
+
+.btn {
+    font-size: $normal;
+    width: 110px;
+    height: 50px;
+    border-radius: 9px;
+    border-color: gold;
+}
+
+.btn-2ndary {
+    @extend .btn;
+    border-color: transparent;
+}
 
 /* Logo Animation */
 
