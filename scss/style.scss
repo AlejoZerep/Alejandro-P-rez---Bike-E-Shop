@@ -5,7 +5,7 @@
 /*Index Page Header*/
 
 header.starto {
-    height: 700px;
+    height: 850px;
     background-image: url(../media/Jump\ Dark.jpg);
     background-position: center 0px ;
     background-repeat: no-repeat;
@@ -23,6 +23,17 @@ header.start2 {
 header.start3 {
     @extend .starto;
     background-image: url(../media/Keno\ Derleyn.jpg);
+}
+
+/*Maintenance Page Header*/
+
+header.workshop {
+    @extend .starto;
+    height: 700px;
+    background-image: url(../media/1688256945948.jpg);
+    background-position: center center;
+    background-size: cover;
+
 }
 
 
@@ -81,10 +92,6 @@ header.start3 {
 /*Media Queries*/
 
 @media (min-width:320px) and (max-width:1920px) {
-
-    .workshop {
-        width: 100%;
-    }
 
     .wheels {
         width: 50%;
