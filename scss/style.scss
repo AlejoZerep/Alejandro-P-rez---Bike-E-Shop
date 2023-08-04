@@ -2,20 +2,46 @@
 @import "partials/mixins";
 @import "partials/variables";
 
-/*Button Styles*/
+/*Index Page Header*/
 
-.btn {
-    font-size: $normal;
-    width: 110px;
-    height: 50px;
-    border-radius: 9px;
-    border-color: gold;
+header.starto {
+    height: 700px;
+    background-image: url(../media/Jump\ Dark.jpg);
+    background-position: center 0px ;
+    background-repeat: no-repeat;
 }
 
-.btn-2ndary {
-    @extend .btn;
-    border-color: transparent;
+/*Bikes Page Header*/
+
+header.start2 {
+    @extend .starto;
+    background-image: url(../media/bike_mtb_black_152969_1920x1080.jpg);
 }
+
+/*Contact Us Page Header*/
+
+header.start3 {
+    @extend .starto;
+    background-image: url(../media/Keno\ Derleyn.jpg);
+}
+
+
+/*Search Bar Position*/
+
+.searcho {
+    position: relative;
+    top: 30%;
+}
+
+/*Motto Position*/
+
+.banner {
+    color:azure;
+    position: relative;
+    top: 10px;
+}
+
+
 
 /*Featured Items Style*/
 
@@ -55,6 +81,7 @@
 /*Media Queries*/
 
 @media (min-width:320px) and (max-width:1920px) {
+
     .workshop {
         width: 100%;
     }

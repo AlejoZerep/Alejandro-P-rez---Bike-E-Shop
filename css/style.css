@@ -10,17 +10,35 @@ a {
   text-decoration: none;
 }
 
-/*Button Styles*/
-.btn, .btn-2ndary {
-  font-size: 1rem;
-  width: 110px;
-  height: 50px;
-  border-radius: 9px;
-  border-color: gold;
+/*Index Page Header*/
+header.starto, header.start3, header.start2 {
+  height: 700px;
+  background-image: url(../media/Jump\ Dark.jpg);
+  background-position: center 0px;
+  background-repeat: no-repeat;
 }
 
-.btn-2ndary {
-  border-color: transparent;
+/*Bikes Page Header*/
+header.start2 {
+  background-image: url(../media/bike_mtb_black_152969_1920x1080.jpg);
+}
+
+/*Contact Us Page Header*/
+header.start3 {
+  background-image: url(../media/Keno\ Derleyn.jpg);
+}
+
+/*Search Bar Position*/
+.searcho {
+  position: relative;
+  top: 30%;
+}
+
+/*Motto Position*/
+.banner {
+  color: azure;
+  position: relative;
+  top: 10px;
 }
 
 /*Featured Items Style*/
