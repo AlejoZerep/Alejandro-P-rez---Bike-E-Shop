@@ -94,7 +94,15 @@ header.workshop {
 @media (min-width:320px) and (max-width:1920px) {
 
     .wheels {
-        width: 50%;
+        width: 90%;
         height: 100%;
+    }
+}
+
+@media (min-width:320px) and (max-width:576px) {
+
+    .maintenance {
+        width: 90%;
+        height: 25%;
     }
 }

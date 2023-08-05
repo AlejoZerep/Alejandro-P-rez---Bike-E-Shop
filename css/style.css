@@ -11,8 +11,8 @@ a {
 }
 
 /*Index Page Header*/
-header.starto, header.start3, header.start2 {
-  height: 700px;
+header.starto, header.workshop, header.start3, header.start2 {
+  height: 850px;
   background-image: url(../media/Jump\ Dark.jpg);
   background-position: center 0px;
   background-repeat: no-repeat;
@@ -26,6 +26,14 @@ header.start2 {
 /*Contact Us Page Header*/
 header.start3 {
   background-image: url(../media/Keno\ Derleyn.jpg);
+}
+
+/*Maintenance Page Header*/
+header.workshop {
+  height: 700px;
+  background-image: url(../media/1688256945948.jpg);
+  background-position: center center;
+  background-size: cover;
 }
 
 /*Search Bar Position*/
@@ -74,12 +82,15 @@ header.start3 {
 
 /*Media Queries*/
 @media (min-width: 320px) and (max-width: 1920px) {
-  .workshop {
-    width: 100%;
-  }
   .wheels {
-    width: 50%;
+    width: 90%;
     height: 100%;
+  }
+}
+@media (min-width: 320px) and (max-width: 576px) {
+  .maintenance {
+    width: 90%;
+    height: 25%;
   }
 }
 
