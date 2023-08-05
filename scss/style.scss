@@ -11,7 +11,8 @@ header.starto {
     background-repeat: no-repeat;
 }
 
-/*Bikes Page Header*/
+/* *** Extend *** */
+/* Bikes Page Header  */
 
 header.start2 {
     @extend .starto;
@@ -53,7 +54,6 @@ header.workshop {
 }
 
 
-
 /*Featured Items Style*/
 
 .Enduro-Bike, .Blue-Helmet, .Green-MTB-Glove, .Rim-Shimano {
@@ -70,6 +70,7 @@ header.workshop {
   .rotate_gear:hover {
     transform: rotate(360deg);
   }
+
 
   /* mixin Maintenance */
   

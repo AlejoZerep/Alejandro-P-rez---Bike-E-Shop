@@ -18,7 +18,8 @@ header.starto, header.workshop, header.start3, header.start2 {
   background-repeat: no-repeat;
 }
 
-/*Bikes Page Header*/
+/* *** Extend *** */
+/* Bikes Page Header  */
 header.start2 {
   background-image: url(../media/bike_mtb_black_152969_1920x1080.jpg);
 }
